@@ -590,7 +590,7 @@ body::-webkit-scrollbar {
 }
 
 .social-icon.instagram:hover {
-    color: #E4405F;
+    color: #7f656a;
     
 }
 
@@ -604,7 +604,7 @@ body::-webkit-scrollbar {
 }
 
 .social-icon.spotify:hover {
-    color: #1DB954;
+    color: #808080;
 }
 
 .social-icon.youtube:hover {
@@ -1105,27 +1105,9 @@ body::-webkit-scrollbar {
 
 .footer-social:hover {
     transform: scale(1.1);
+    color: #6a7e62 !important;
 }
 
-.footer-social.instagram:hover {
-    color: #E4405F;
-}
-
-.footer-social.soundcloud:hover {
-    color: #FF3300;
-}
-
-.footer-social.tiktok:hover {
-    color: #ffffff;
-}
-
-.footer-social.spotify:hover {
-    color: #1DB954;
-}
-
-.footer-social.youtube:hover {
-    color: #FF0000;
-}
 
 .footer-social-svg {
     width: 100%;
@@ -1195,11 +1177,28 @@ body::-webkit-scrollbar {
     .desktop-nav {
         display: none;
     }
-    
+
+    .nav-content {
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
     .mobile-menu-btn {
         display: flex;
+        margin-right: auto;
+        margin-left: 0;
+        order: -1;
+    }
+
+    img#logo.logo {
+        align-self: center;
+        justify-content: center;
+        margin-top: 0.5rem;
+
     }
     
+
     .hero-logo {
         max-width: 90%;
     }

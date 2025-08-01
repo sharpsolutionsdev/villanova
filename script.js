@@ -206,18 +206,10 @@ class SocialEffects {
 class EPKDownloads {
     constructor() {
         this.logoFiles = [
-            "Images/logopack.png",
-            "Images/logobg1.png",
-            "Images/logbg2.png",
-            "Images/logobg3.png",
-            "Images/Villanova Logo.png"
+            "Images/Logo Pack.zip",
         ];
         this.photoFiles = [
-            "Images/BG Band.png",
-            "Images/Charlie_img.png",
-            "Images/CharlieBG.png",
-            "Images/Taylor_img.png",
-            "Images/Sean_img.png"
+            "Images/Band Pack.zip",
         ];
         this.musicFiles = [
             "Images/superstition.mp3"
